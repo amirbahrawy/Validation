@@ -6,8 +6,86 @@
         <title>Validation</title>
     </head>
     <body>
-        <h1>Hello</h1>
-        <p>hishidv;h</p>
+        <div class="cotainer-fluid">
+            <nav>
+                <ul class="nav">
+                    <li><a href="#" class="nav-link" >Home</a></li>
+                    <li><a href="#" class="nav-link" >Sign Up</a></li>
+                    <li><a href="#" class="nav-link" >Sign In</a></li>
+                    <li><a href="#" class="nav-link" >About</a></li>
+                    <li><a href="#" class="nav-link" >Contact us</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/..." style="width:100%">
+                <div class="text">Caption Text</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/..." style="width:100%">
+                <div class="text">Caption Two</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/..." style="width:100%">
+                <div class="text">Caption Three</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+       <div class="Pics-Paragraph"> 
+        <div class="row">
+            <div class="col-4">
+                <img class="img-fluid" src="..." alt="...">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid" src="..." alt="...">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid" src="..." alt="...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <p class="P">............</p>
+            </div>
+            <div class="col-4">
+                <p class="P">............</p>
+            </div>
+            <div class="col-4">
+                <p class="P">............</p>
+            </div>
+        </div>
+       </div> 
+       <form class="Form">
+            <div id='error'> errors </div>
+           Name: <input type='text' id='names' placeholder="Name"><br>
+          Phone:  <input type='text' id='phone' placeholder="Phone"><br>
+           Password: <input type='password' id='pass' placeholder="********"><br>
+           Confirm Password: <input type='password' id='confirm_pass' placeholder="********"><br>
+            <input type='checkbox'  onclick='show_Pass()'  >
+            <button type="submit" disabled id='submit'> Submit </button>
+        </form>
+        <footer class="foot">
+            <p>.....</p>
+        </footer>
         <script src="validation.js"></script>
         </body>            
 </html>            
