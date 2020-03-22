@@ -6,83 +6,52 @@
         <title>Validation</title>
     </head>
     <body>
-        <div class="cotainer-fluid">
-            <nav>
-                <ul class="nav">
-                    <li><a href="#" class="nav-link" >Home</a></li>
-                    <li><a href="#" class="nav-link" >Sign Up</a></li>
-                    <li><a href="#" class="nav-link" >Sign In</a></li>
-                    <li><a href="#" class="nav-link" >About</a></li>
-                    <li><a href="#" class="nav-link" >Contact us</a></li>
-                </ul>
-            </nav> 
+        <!--navbar-->
+        <div >
+            <nav class="nav bg-dark" >
+                <a href="#" class="nav-link active">Home</a> 
+                <a id="signUp" href="#" class="nav-link">ٍSignUp</a>
+                <a href="#" class="nav-link">Contact us</a>       <a href="#" class="nav-link">About Us</a>      
+            </nav>
         </div>
-        <!-- Slideshow container -->
-            <div class="slideshow-container">
+        
+        <div class="container-fluid">
+            <!-- ab2aa 7ot slider hena-->
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="images/..." style="width:100%">
-                <div class="text">Caption Text</div>
-                </div>
+             <!-- first row & b for margin bottom-->
+            <div class="row justify-content-around first ">
+              
             
-                <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/..." style="width:100%">
-                <div class="text">Caption Two</div>
+            <!-- second row -->
+            <div class="row justify-content-around first ">
+                <div class="col-sm-6 col-md-2 col-lg-3 ">
+                   <img src="images/318301600.jpg" alt="Cinque Terre"  class="img-thumbnail img-fluid " > 
                 </div>
-            
-                <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/..." style="width:100%">
-                <div class="text">Caption Three</div>
-                </div>
-            
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-       <div class="Pics-Paragraph"> 
-        <div class="row">
-            <div class="col-4">
-                <img class="img-fluid" src="..." alt="...">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="..." alt="...">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="..." alt="...">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <p class="P">............</p>
-            </div>
-            <div class="col-4">
-                <p class="P">............</p>
-            </div>
-            <div class="col-4">
-                <p class="P">............</p>
-            </div>
-        </div>
-       </div> 
+                <div class="col-sm-6 col-md-2 col-lg-3 ">
+                        <img src="images/318301600.jpg" alt="Cinque Terre" class="img-thumbnail img-fluid " >
+                    </div>   
+                <div class="col-sm-6 col-md-2 col-lg-3 ">
+                        <img src="images/318301600.jpg" alt="Cinque Terre"  class="img-thumbnail img-fluid ">
+                    </div> 
+            </div >
+           
+        </div> 
        <form class="Form">
-            <div id='error'> errors </div>
-           Name: <input type='text' id='names' placeholder="Name"><br>
-          Phone:  <input type='text' id='phone' placeholder="Phone"><br>
-           Password: <input type='password' id='pass' placeholder="********"><br>
-           Confirm Password: <input type='password' id='confirm_pass' placeholder="********"><br>
-            <input type='checkbox'  onclick='show_Pass()'  >
+            <div id='error'> e </div>
+           <span >Your name:</span>
+            <input  type='text' id='names' placeholder="enter your name"><br>
+          <span >Your phone:</span>
+             <input type='text' id='phone' placeholder="enter your phone"><br>
+           <span >Your Password</span>
+           <input type='password' id='pass' placeholder="********"><br>
+           <span >Confirm Password</span>
+           <input type='password' id='confirm_pass' placeholder="********"><br>
+           <span style="font-family:Andale Mono, monospace">show password</span>
+           <input type="checkbox" id="check" >
+           <br>
             <button type="submit" disabled id='submit'> Submit </button>
         </form>
+        </div>    
         <footer class="foot">
             <p>.....</p>
         </footer>
