@@ -60,6 +60,8 @@ font-family:Comic Sans MS, Comic Sans, cursive;
   float: left;
   margin: 0px;
   padding: 0px;
+  border-radius: 10px;
+  
 }
 .button-container
 {
@@ -85,4 +87,28 @@ left: -800px;
 #slider-image-3:target ~ .image-container
 {
 left: -1600px;
+}
+.H
+{
+  text-align: center;
+}
+#error
+{
+  display: none;
+}
+.Form
+{
+  background-color: rgba(0, 0, 0, 0.281);
+}
+body
+{
+  background-image: url(../images/wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+
+}
+h1
+{
+  color: white;
 }
