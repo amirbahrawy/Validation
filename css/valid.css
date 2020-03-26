@@ -112,3 +112,35 @@ h1
 {
   color: white;
 }
+.textt
+{
+  text-align: center;
+  font-weight: 800;
+  background-color: #0099ff;
+  color: white;
+}
+ p:hover
+{
+  background-color: rgb(143, 143, 143);
+  color: rgb(27, 27, 27);
+}
+span
+{
+  color: white;
+  font-weight: 800;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.margin
+{
+  margin-right: 45px;
+}
+.margin1
+{
+  margin-right: 22px;
+}
+#submit:hover
+{
+  background-color: rgb(143, 143, 143);
+  color: rgb(27, 27, 27);
+}
