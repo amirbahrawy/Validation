@@ -140,3 +140,18 @@ span
   background-color: rgb(143, 143, 143);
   color: rgb(27, 27, 27);
 }
+.foot
+{
+  background-color: rgb(46, 46, 53);
+  color: rgb(255, 255, 255);
+  font-size: large;
+  padding: 10px;
+}
+.foot :hover
+{
+  background-color:  #0099ff;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: 800;
+  padding: 10px;
+}

@@ -20,14 +20,14 @@ function check_name(x)
         Err0r.innerHTML='';
         else
         {
-            Err0r.innerHTML='invalid name' ;
+            Err0r.innerHTML='Invalid Name, must be atleast 3 letters' ;
             Err0r.style.color='red';
         }
     });
 
     function check_pass(x)
     {
-        if(x.value.length <4)
+        if(x.value.length <8)
         return false;
         else
         return true;
@@ -38,7 +38,7 @@ function check_name(x)
         if(check_pass(Pass))
         Err0r.innerHTML='';
         else
-        {Err0r.innerHTML='invalid password' ;
+        {Err0r.innerHTML='Please enter 8 digits password' ;
         Err0r.style.color='red';}
     });
 
@@ -73,6 +73,23 @@ function show_Pass()
         PassConfirm.type='password';
     }
 }
+
+function check_phone(x)
+{
+    if(x.value.length <11)
+    return false;
+    else
+    return true;
+}
+
+Phone.addEventListener('keyup',function()
+{
+    if(check_pass(Phone))
+    Err0r.innerHTML='';
+    else
+    {Err0r.innerHTML='Phone format: 01XXXXXXXXX' ;
+    Err0r.style.color='red';}
+});
 
 
 /*button enable*/
