@@ -61,7 +61,7 @@
         <br><br><br>
        <form class="Form">
               <br>
-            <div id='error'> error </div>
+            <div id='error'></div>
            <span class="margin">Your name:</span>
             <input  type='text' id='names' placeholder="enter your name"><br>
           <span class="margin">Your phone:</span>
@@ -71,7 +71,7 @@
            <span >Confirm Password</span>
            <input type='password' id='confirm_pass' placeholder="********"><br><br>
            <span style="font-family:Andale Mono, monospace">show password</span>
-           <input type="checkbox" id="check" >
+           <input type="checkbox" id="check" onclick='show_Pass()' >
            <br> <br>
             <button type="submit" disabled id='submit'> Submit </button> <br><br>
         </form>
